@@ -1,0 +1,82 @@
+/*adding margin to body*/
+body
+{
+  margin:auto;
+}
+/*adding size of heading */
+.heading
+{
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/*adding color and width of heading*/
+.head {
+  position: fixed;
+    width: 100%;
+   background-color:#0c8aad;
+  /*  background-image: url("../images/4.jpg");
+     background-repeat-x: no-repeat;
+       background-repeat-y: no-repeat;
+  */
+    z-index: 100;
+}
+/*inlining of list */
+li
+{
+display:inline;
+font-size: 25px;
+padding-left: 20px;
+}
+/*removing decoration of links*/
+ul a{
+text-decoration:none;
+}
+
+ul a:hover{
+text-decoration:underline;
+font-size:40px;
+}
+/*designing of heroimage*/
+.heroimage
+{
+  position:relative;
+  top:150px;
+  width: 100%;
+}
+/*setting margin of 960 grid*/
+.container_12
+{
+
+margin-top: 150px;
+}
+/* setting font-size of 3-column 960 grid*/
+.grid_4
+{
+  font-size: 20px;
+}
+
+.row
+{
+  font-size: 15px;
+  font-style:italic;
+  font-family: fantasy;
+}
+/*setting list in footer*/
+.para
+{
+  margin-left:550px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+/*styling of footer*/
+.footer{
+    width: 100%;
+background-color: #95AEA0;
+    height: 60px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
